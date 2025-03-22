@@ -1,15 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wed của Dững</title>
+    <title>TMD</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
 </head>
-<body style=background-color:aqua>
-    <img src="./trọng tính.jpg" width="500"/>
-    <p style="color:blue;">Họ tên:<strong>Phạm Trọng Tính</strong></p>
-   <p> Quê quán:An giang</p>
-    Mô tả ngắn gọn: <p><i>yêu màu xanh, thích gặm xương, ghét màu hường</i></p>
-    Link FB:<a href="https://www.google.com/search?q=%E1%BA%A3nh+trai+x%E1%BA%A5u&rlz=1C1GCEA_enVN1080VN1080&oq=%E1%BA%A3nh+trai+x%E1%BA%A5u+&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyBwgBEAAYgAQyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQoyMjgzM2owajE1qAIAsAIA&sourceid=chrome&ie=UTF-8">clik vào đây</a>
+
+<body>
+    <div class="overlay"></div>
+    <header>
+        <a href="index.html" class="logo">TMD</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="right-header">
+                <a href="#" class="btn">Let's chat<i class="fas fa-comments"></i></a>
+                <div class="menu-icon">
+                    <div class="bar"></div>
+                </div>
+            </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="hero-info">
+            <h3>Welcome to my world</h3>
+            <h1>I'm Minh Dững</h1>
+
+            <div class="text-animate">
+                <h2>Web Developer</h2>
+            </div>
+            <div class="social-media">
+                <div class="bg-icon">
+                    <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="social-media">
+                <div class="bg-icon">
+                    <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="social-media">
+                <div class="bg-icon">
+                    <a href="" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="img-hero">
+            <img src="images/hero.png" alt="">
+            <div class="rotate-text">
+                <div class="text">
+                    <p>
+                        i'm a web developer with a passion for creating beautiful and user-friendly websites.
+                        i'm always looking for new challenges and ways to improve my skills.
+                    </p>
+                </div>
+                <span><i></i></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="" class="about-hero">
+            <div class="showcase-ring">
+                <img src="images/showcase-ring.png" alt="">
+                <img src="images/showcase-ring.png" alt="">
+            </div>
+        </div>
+        <div class="about-content">
+            <h2 class="heading">
+                About Me
+            </h2>
+            <h3>
+                I'm Minh Dững a web developer based in Vietnam.
+                I have a passion for creating beautiful and user-friendly websites.
+            </h3>
+            <div class="about-btn">
+                <button class="active">MainSkill</button>
+                <button>Experience</button>
+                <button>Education</button>
+            </div>
+            <div class="content-btn">
+                <div class="text-box">
+                    <p>
+                        I'm a web developer with a passion for creating beautiful and user-friendly websites.
+                    </p>
+                    <span>
+                        I'm always looking for new challenges and ways to improve my skills.
+                    </span>
+                </div>
+            </div>
+            <div class="content-btn">
+                <div class="text-box">
+                    <p>
+                        I'm a web developer with a passion for creating beautiful and user-friendly websites.
+                    </p>
+                    <span>
+                        I'm always looking for new challenges and ways to improve my skills.
+                    </span>
+                </div>
+            </div>
+            <div class="cvContent">
+                <a href="#" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="main-text">
+            <h2 class="heading">
+                Services
+            </h2>
+            <h3>
+                I offer a range of services to help you achieve your goals.
+            </h3>
+            <div class="allservices">
+                <div class="services-item">
+                    <div class="icon-services">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h4>Web Development</h4>
+                    <p>
+                        I can help you create a beautiful and user-friendly website that will help you achieve your
+                        goals.
+                    </p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="services-item">
+                    <div class="icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h4>Responsive Design</h4>
+                    <p>
+                        I can help you create a website that looks great on all devices, from desktops to smartphones.
+                    </p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="services-item">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h4>UI/UX Design</h4>
+                    <p>
+                        I can help you create a website that is not only beautiful but also easy to use.
+                    </p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="proposal">
+                <div class="text-box">
+                    <span>
+                        get it touch
+                    </span>
+                    <h3>have a project on your mind</h3>
+                    <a href="#" class="btn">Contact Me</a>
+                </div>
+                <img src="images/services.png" alt="" class="first">
+            </div>
+
+            <div class="showcase">
+                <img src="images/showcase.png" alt="" class="showcase-img">
+                <img src="images/showcase-ring.png" alt="" class="showcase-ring">
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
