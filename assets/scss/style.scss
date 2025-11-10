@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    border-top: 1px solid rgb(206, 206, 206);
+    padding-top: 5px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+
+    .nav {
+        display: flex;
+        list-style: none;
+
+        // thẻ li
+        &-item {
+            width: 25%;
+        }
+
+        // thẻ a
+        &-item-text {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            color: gray;
+            width: 100%;
+            align-items: center;
+            padding: 10px;
+            transition: all 0.3s;
+
+            // thẻ i trong thẻ a (icon)
+            i {
+                font-size: 30px;
+            }
+
+            &.active {
+                color: #1b9ac8;
+
+                transform: scale(1.2);
+            }
+        }
+
+    }
+}
+
+.personal-info {
+    .pictures {
+        position: relative;
+
+        img {
+            max-width: 100%;
+            object-fit: cover;
+        }
+        .background>img {
+            height: 30vh;
+            max-height: 400px;
+            width: 100vw;
+        }
+
+        .avatar>img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            box-shadow: 0 0 0 3.5px white;
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translate(-50%, 10%);
+        }
+    }
+}
+
+
+
+.show-more{
+    position: fixed;
+    bottom: 90px;
+    right: 10px;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+    border-radius: 10px;
+    display: none;
+    &.active{
+        display: block;
+    }   
+    .sm-container{
+        list-style: none;
+        min-width: 150px;
+        a{
+            padding : 10px 5px;
+            display: inline-block; 
+            width: 100%;
+            text-decoration: none;
+            color: black;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+        }
+    }
+}
