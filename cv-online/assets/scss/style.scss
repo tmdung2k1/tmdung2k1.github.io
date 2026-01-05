@@ -58,11 +58,8 @@ nav {
             max-width: 100%;
             object-fit: cover;
         }
-        .background>img {
-            height: 30vh;
-            max-height: 400px;
-            width: 100vw;
-        }
+
+
 
         .avatar>img {
             width: 120px;
@@ -79,28 +76,31 @@ nav {
 
 
 
-.show-more{
+.show-more {
     position: fixed;
     bottom: 90px;
     right: 10px;
     background: white;
     padding: 10px;
-    box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     display: none;
-    &.active{
+
+    &.active {
         display: block;
-    }   
-    .sm-container{
+    }
+
+    .sm-container {
         list-style: none;
         min-width: 150px;
-        a{
-            padding : 10px 5px;
-            display: inline-block; 
+
+        a {
+            padding: 10px 5px;
+            display: inline-block;
             width: 100%;
             text-decoration: none;
             color: black;
-            border-bottom: 1px solid rgba(0,0,0,0.1);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
     }
 }
